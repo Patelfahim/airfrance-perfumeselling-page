@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>History</title>
+</head>
+<style>
+    * {      
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Ubuntu', sans-serif;
+    }
+
+    body {
+      color: #111;
+      overflow-x: hidden;
+      background-color: darkgray;
+      background: url('https://wallpapercave.com/wp/wp3948240.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    nav {
+      width: 100%;
+      height: 60px;
+      background-color:  #007bffbe;
+      background: blur(10px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    nav h1 {
+      font-size: 35px;
+      font-weight: 700;
+      color: #111;
+    }
+
+    nav button {
+  padding: 6px 14px;
+  margin-left: 6px;
+  border: none;
+  border-radius: 6px;
+  background: #ffffffcc;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background: #fff;
+}
+
+
+
+    .timeline {
+        width: 99%;
+        margin: 30px auto;
+        padding: 40px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .timeline-item {
+        font-size: large;
+        font-weight: 500;
+        margin-bottom: 30px;
+        padding-left: 20px;
+        border-left: 4px solid #007BFF;
+        position: relative;
+    }
+
+    .year {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .timeline img {
+        width: 100%;
+        max-width: 600px;
+        margin-top: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #007bffbe;
+      box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      margin-top: 20px;
+      font-weight: 500;
+    }
+
+</style>
+<body>
+<nav class="hero">
+  <h1 id="page-title">History of Air France</h1>
+
+  <div style="position:absolute; right:20px;">
+    <button onclick="location.href='index.html'">Home</button>
+    <button onclick="setLanguage('en')">EN</button>
+    <button onclick="setLanguage('fr')">FR</button>
+  </div>
+</nav>
+
+  <section class="timeline">
+
+    <div class="timeline-item">
+      <span class="year">1933</span>
+      <div class="content">
+        <h2>Foundation</h2>
+        <p>
+           In the early days of commercial aviation, flying was still an adventure reserved for explorers, diplomats, and pioneers. Air France emerged in 1933 as a bold national project, uniting multiple French airlines to create a single carrier capable of representing France across continents.
+           <br><br>
+            The airline quickly became known for:
+            <br><br>
+            <ul type="disc">
+                <li>Long-distance routes over Africa and Asia</li>
+                <li>Skilled pilots navigating with limited technology</li>
+                <li>Aircraft that combined engineering with French craftsmanship</li>
+                <li>Pioneering night flights and trans-Mediterranean routes</li>
+                <li>Training programs for aviation crews across Europe</li>
+            </ul>
+            <p>Air France flights during this era were not just transportation, but symbols of courage and progress. The airline employed over 2,000 staff by 1939 and operated routes to 50+ destinations worldwide.</p>
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="year">1945</span>
+      <div class="content">
+        <h2>Post-War Expansion</h2>
+        <p>
+        After World War II, Air France played a vital role in reconnecting a fractured world. Nationalized in 1945, the airline expanded rapidly, introducing pressurized cabins, improved safety standards, and new aircraft designed for comfort and reliability.
+        <br><br>
+        Key achievements included:
+        <ul type="disc">
+          <li>Introduction of Douglas DC-4 aircraft for transatlantic routes</li>
+          <li>Establishment of Paris-New York daily service by 1950</li>
+          <li>Development of luxury cabin classes and meal services</li>
+          <li>Expansion to 80+ destinations across Europe, Africa, and Asia</li>
+          <li>Training center established in Paris for pilot and crew development</li>
+        </ul>
+        <p>Paris became a key aviation hub, and Air France earned a reputation for professionalism and refined onboard service that lasted decades.</p>
+     </p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="year">1976</span>
+      <div class="content">
+        <h2>The Concorde Era</h2>
+        <p>
+          Air France began operating the supersonic Concorde, reducing travel time between Paris and New York to under 3.5 hours. This iconic aircraft represented the pinnacle of aviation innovation.
+          <br><br>
+          <ul type="disc">
+            <li>Only 20 Concorde aircraft were ever built (7 for Air France)</li>
+            <li>Cruised at Mach 2 (twice the speed of sound)</li>
+            <li>Exclusively served elite passengers on premium routes</li>
+            <li>Became a symbol of French engineering excellence</li>
+            <li>Operated until 2003, after which it was retired</li>
+          </ul>
+          <p>The Concorde era elevated Air France to legendary status in aviation history.</p>
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="year">2004</span>
+      <div class="content">
+        <h2>Air France–KLM Merger</h2>
+        <p>
+          Air France merged with KLM Royal Dutch Airlines to form Air France–KLM, one of the world's largest airline groups by revenue and passenger traffic.
+          <br><br>
+          Strategic benefits included:
+          <ul type="disc">
+            <li>Combined fleet of over 900 aircraft</li>
+            <li>Enhanced connectivity across Europe and beyond</li>
+            <li>Shared resources and operational efficiency</li>
+            <li>Expanded cargo and logistics operations</li>
+            <li>Dual hub strategy: Paris (CDG) and Amsterdam (AMS)</li>
+          </ul>
+          <p>This partnership strengthened Air France's global presence and competitive positioning in the aviation industry.</p>
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="year">Today</span>
+      <div class="content">
+        <h2>Modern & Sustainable</h2>
+        <p>
+          Air France operates modern aircraft like the Airbus A350 and invests heavily in sustainability, digital services, and premium passenger experience.
+          <br><br>
+          Current initiatives include:
+          <ul type="disc">
+            <li>Fleet modernization with fuel-efficient aircraft</li>
+            <li>Carbon-neutral travel options and sustainability goals</li>
+            <li>Digital transformation for seamless booking and boarding</li>
+            <li>Premium lounges and enhanced cabin comfort</li>
+            <li>Expansion of regional routes with partners</li>
+            <li>Investment in sustainable aviation fuel (SAF) research</li>
+          </ul>
+          <p>With over 90 years of history, Air France continues to set industry standards for safety, service quality, and innovation.</p>
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Air France History. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const translations = {
+      en: {
+        pageTitle: "History of Air France",
+        content:""
+      },
+      fr: {
+        pageTitle: "Histoire d'Air France",
+      }
+    };
+
+    function setLanguage(lang) {
+      document.getElementById('page-title').innerText = translations[lang].pageTitle;
+    }
+  </script>
+</body>
+</html>
